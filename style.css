@@ -1,0 +1,65 @@
+body {
+    color: rgb(103, 148, 243);
+    background: rgb(20, 91, 156);
+    margin: 0px
+}
+
+header {
+    border-bottom: solid 2px rgb(96, 172, 243);
+    border-left: solid 2px rgb(96, 172, 243);
+    color: rgb(127, 178, 245);
+    font-size: 45px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+.chamada {
+    background: rgb(3, 18, 59);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height: 260px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(220, 227, 236)
+}
